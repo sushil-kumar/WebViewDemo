@@ -11,6 +11,9 @@
 		FA05283A26E7A20400147837 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05283926E7A20400147837 /* ContentView.swift */; };
 		FA05283C26E7A20800147837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA05283B26E7A20800147837 /* Assets.xcassets */; };
 		FA05283F26E7A20800147837 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA05283E26E7A20800147837 /* Preview Assets.xcassets */; };
+		FA05284726E7A61A00147837 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05284626E7A61A00147837 /* WebView.swift */; };
+		FA05284926E7BA8D00147837 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05284826E7BA8D00147837 /* ViewModel.swift */; };
+		FA05284B26E7C1F700147837 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05284A26E7C1F700147837 /* Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		FA05283B26E7A20800147837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA05283E26E7A20800147837 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA05284026E7A20800147837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA05284626E7A61A00147837 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		FA05284826E7BA8D00147837 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FA05284A26E7C1F700147837 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				FA05283B26E7A20800147837 /* Assets.xcassets */,
 				FA05284026E7A20800147837 /* Info.plist */,
 				FA05283D26E7A20800147837 /* Preview Content */,
+				FA05284626E7A61A00147837 /* WebView.swift */,
+				FA05284826E7BA8D00147837 /* ViewModel.swift */,
+				FA05284A26E7C1F700147837 /* Loader.swift */,
 			);
 			path = WebViewDemo;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA05284726E7A61A00147837 /* WebView.swift in Sources */,
 				FA05283A26E7A20400147837 /* ContentView.swift in Sources */,
+				FA05284926E7BA8D00147837 /* ViewModel.swift in Sources */,
 				FA05283826E7A20400147837 /* WebViewDemoApp.swift in Sources */,
+				FA05284B26E7C1F700147837 /* Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
